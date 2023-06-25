@@ -12,7 +12,8 @@ function stiker() {
   if (total <= 10) {
     document.querySelector("#cantidad").innerHTML = "llevas" + total;
   } else {
-    document.querySelector("#cantidad").innerHTML = "llevas demaciados stiker";
+    document.querySelector("#cantidad").innerHTML =
+      "ups. Llevas demaciados stiker, no podemos proceder a pagar.";
   }
 }
 ejercicio1.addEventListener("click", stiker);
